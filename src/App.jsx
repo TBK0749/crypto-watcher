@@ -13,8 +13,6 @@ function App() {
     // });
   }, []);
 
-  const [ opened, setOpened ] = useState(false);
-
   return (
     <Container>
       <div className="grid gap-4 my-8">
@@ -23,18 +21,6 @@ function App() {
         <TrackingCoinsGrid/>
       </div>
     </Container>
-    // <>
-    //     <Modal
-    //       opened={opened}
-    //       onClose={() => setOpened(false)}
-    //       title="Introduce yourself!"
-    //     >
-    //       This is a modal content
-    //     </Modal>
-    //     <Group position="center">
-    //       <Button onClick={() => setOpened(true)}>Open Modal</Button>
-    //     </Group>
-    //   </>
   );
 }
 
