@@ -9,8 +9,9 @@ export default function AddCoin() {
         opened={false}
 
         // TODO: We should add the coin in the onClose function, also we need to hide the modal
-        onClose={() => {}}
+        onClose={() => { }}
       />
+      {/* ปุ่ม Add Coin คลิกแล้วต้องโชว์ AddCoinModal */}
       <Button>Add Coin</Button>
     </div>
   );

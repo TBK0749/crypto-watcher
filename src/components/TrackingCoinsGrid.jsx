@@ -6,7 +6,10 @@ export default function TrackingCoinsGrid() {
       {/*TODO: Show message 'No tracking coin.' if there is no coin to show.*/}
 
       {/*TODO: Change this to grid of 4 columns*/}
-      <CoinCard/>
+
+      {/* วนลูปโชว์เหรียญทุกตัวที่ track อยู่ */}
+      {/* ให้ update ราคา auto ทุก 30 วิ (challenge) */}
+      <CoinCard ticker={`NANO/USDT`} price={7500} />
     </div>
   );
 }
